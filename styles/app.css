@@ -1,9 +1,36 @@
 body{
-	background-color: pink;
-	color: #666;
+	color: #333;
 }
 
-h1{
-	color: #000;
-	text-decoration: underline;
+.header ul li{
+	display: inline;
+}
+
+.header ul li a{
+	color: #440044;
+	text-decoration: none;
+	padding: 10px 5px;
+	display: inline-block;
+}
+
+.header ul li a:hover{
+	background-color: #eee;
+}
+
+.header ul li .logo{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.header .hero{
+	background-color: #440044;
+	height: 400px;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+}
+
+.header .hero .slogan{
+	width: 700px;
+	margin: 0 auto;
 }
